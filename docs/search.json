@@ -9,8 +9,22 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About Me",
     "section": "",
-    "text": "About this site"
+    "text": "contact me on suvendusamanta@gmail.com"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "sample\n\n\ncode\n\n\nanalysis\n\n\n\n\nPost description\n\n\n\n\n\n\nDec 26, 2023\n\n\nSuvendu Samanta\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/sample-blog.html",
+    "href": "posts/sample-blog.html",
+    "title": "Sample Blog",
+    "section": "",
+    "text": "Here is the content of sample blog"
   }
 ]

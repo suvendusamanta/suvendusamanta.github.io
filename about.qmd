@@ -1,5 +1,7 @@
 ---
-title: "About"
+title: "About Me"
 ---
 
-About this site
+I am a dreamer.
+
+contact me on suvendusamanta@gmail.com
