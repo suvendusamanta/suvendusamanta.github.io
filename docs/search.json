@@ -1,24 +1,31 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Suvendu Samanta",
-    "section": "",
-    "text": "This is a Quarto website."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About Me",
+    "title": "Suvendu Samanta",
     "section": "",
-    "text": "contact me on suvendusamanta@gmail.com"
+    "text": "I am a dreamer."
   },
   {
     "objectID": "blog.html",
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "sample\n\n\ncode\n\n\nanalysis\n\n\n\n\nPost description\n\n\n\n\n\n\nDec 26, 2023\n\n\nSuvendu Samanta\n\n\n\n\n\n\nNo matching items"
+    "text": "sample\n\n\ntesting\n\n\nanalysis\n\n\n\n\nPost description\n\n\n\n\n\n\nDec 26, 2023\n\n\nSuvendu Samanta\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "guide.html",
+    "href": "guide.html",
+    "title": "The site is under development. Coming soon ….",
+    "section": "",
+    "text": "Programming\nNumerical Algorithms\nStatistical Machine Learning\n\nLinear Models\nProbabilistic Graphical Models\nDeep Learning\nReinforcement Learning\n\nIntelligence\n\nNatural Language Processing\nComputer Vision\n\nEconometrics\nComputational Applications"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to Suvendu’s website",
+    "section": "",
+    "text": "This website is under development. It is created by Quarto at hosted from Github."
   },
   {
     "objectID": "posts/sample-blog.html",

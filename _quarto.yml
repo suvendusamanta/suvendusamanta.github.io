@@ -3,22 +3,21 @@ project:
   output-dir: docs
 
 website:
-  #title: "suvendusamanta.github.io"
+  title: "Home"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
+      - href: guide.qmd
+        text: Tutorials
       - href: blog.qmd
         text: Blog
       - href: about.qmd
-        text: About me
-      
+        text: About
 
 format:
   html:
     theme: cosmo
     css: styles.css
-    toc: true
+    toc: false
 
 
 
