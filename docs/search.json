@@ -9,7 +9,7 @@
   {
     "objectID": "blog.html",
     "href": "blog.html",
-    "title": "Blog",
+    "title": "Opinions",
     "section": "",
     "text": "sample\n\n\ntesting\n\n\nanalysis\n\n\n\n\nPost description\n\n\n\n\n\n\nDec 26, 2023\n\n\nSuvendu Samanta\n\n\n\n\n\n\nNo matching items"
   },
@@ -33,5 +33,26 @@
     "title": "Sample Blog",
     "section": "",
     "text": "Here is the content of sample blog"
+  },
+  {
+    "objectID": "guides/prog-ale-lang.html",
+    "href": "guides/prog-ale-lang.html",
+    "title": "Ale and Go",
+    "section": "",
+    "text": "Ale is a Lisp designed to be hosted in a Go process. Use both the world of GO and Clojure"
+  },
+  {
+    "objectID": "guides/prog-roc-lang.html",
+    "href": "guides/prog-roc-lang.html",
+    "title": "Roc programming Language",
+    "section": "",
+    "text": "Characteristics\n\nFunctional programming\nDescendent of Elm ( no active development) which inherits Haskell style.\nVery minimal and consize syntax\nGood potential for Scientific computing and machine learning."
+  },
+  {
+    "objectID": "guides/prog-ale-lang.html#language",
+    "href": "guides/prog-ale-lang.html#language",
+    "title": "Ale and Go",
+    "section": "language",
+    "text": "language\n\nGetting started\n\nPrerequisite\n\nGo programming language\nLisp ( especially Clojure )\n\n\n\nInstallation\n\nInstall Go first if it is not installed already.\nSet GOPATH environment variable\nAdd GOPATH/bin in PATH to access ale command\nInstall Ale using go install command :\ngo install github.com/kode4food/ale/cmd/ale@latest\n\nCheck typing ale command\n\n\n\nUse REPL with ale command \n$ale\nAle (A Lisp Environment) 0.1\n\n  (help) Display this help message\n  (doc form) Display documentation. Example: (doc go)\n  (use ns) Change current namespace. Example: (use foo)\n  (cls) Clear the screen\n  (quit) Quit the REPL\n\n  The prompt below identifies the current namespace, followed by the number of expressions that will have been\n  evaluated in the current REPL session. A single expression can span multiple lines.\n\nuser [1]>\n\n\n\nRun a source file\n\nCreate a file ‘somefile.ale’\n\nUse ale filename.ale to run the programm\n\nale somefile.ale\nor \ncat somefile.ale | ale\n\n\nEmbed with Go programm\nMost interesting usecase to leaverage Go."
   }
 ]

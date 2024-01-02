@@ -1,5 +1,5 @@
 ---
-title: "Blog"
+title: "Opinions"
 listing:
     contents: posts
     sort: "date desc"
