@@ -1,6 +1,7 @@
 ---
 title: "The site is under development. Coming soon ...."
 ---
+<!--
 ## Sample topics
 
 ### Computing
@@ -18,7 +19,11 @@ title: "The site is under development. Coming soon ...."
 6. Computational Applications
 
 ### Arts
+1. Music
+2. Drawing and Paininting
+
 
 ### Science
 
 ### 
+-->

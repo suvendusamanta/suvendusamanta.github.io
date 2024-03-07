@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Home - Ale and Go</title>
+<title>Home - Ale Programming</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -18,22 +18,22 @@ ul.task-list{list-style: none;}
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -55,7 +55,7 @@ ul.task-list{list-style: none;}
 }</script>
 
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -64,7 +64,7 @@ ul.task-list{list-style: none;}
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="../index.html">
+      <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Home</span>
   </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -73,13 +73,13 @@ ul.task-list{list-style: none;}
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../guide.html">Guide</a>
+    <a class="nav-link" href="../../../guide.html">Guide</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog.html">Blog</a>
+    <a class="nav-link" href="../../../blog.html">Blog</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html">About</a>
+    <a class="nav-link" href="../../../about.html">About</a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -97,7 +97,7 @@ ul.task-list{list-style: none;}
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Ale and Go</h1>
+<h1 class="title">Ale Programming</h1>
 </div>
 
 
@@ -111,98 +111,136 @@ ul.task-list{list-style: none;}
 
 </header>
 
-<p><a href="https://www.ale-lang.org/">Ale</a> is a Lisp designed to be hosted in a Go process. Use both the world of GO and Clojure <!--Add more description later--></p>
-<section id="ale-is-a-lisp-programming-language-lips-1-vs-lisp-2" class="level4">
-<h4 class="anchored" data-anchor-id="ale-is-a-lisp-programming-language-lips-1-vs-lisp-2">Ale is a LISP programming language ( Lips-1 vs Lisp-2 )</h4>
-<p>There are two kind of LISP languages based on if they uses seperate namespace for functoins. Lisp-a refers to Scheme’s model uses single namespace. Lisp-2 uses Conmmon Lisp’s model where the namespace for function names is separate from the namespace for data variables. Ale follows Lisp-1.</p>
-</section>
-<section id="charateristics-of-ale" class="level4">
-<h4 class="anchored" data-anchor-id="charateristics-of-ale">Charateristics of Ale</h4>
-<ol type="1">
-<li>Lisp-1 : Lisp-1 are minimal. It’s simpler than common lisp.</li>
-<li>Does not support both interpretation and compiled operation. When the programmer performs an (eval), Ale immediately compiles the form and invokes its abstract machine.</li>
-<li>Bindings in Ale are immutable, even in namespaces. ( more functional than other LISP )</li>
-<li>Syntax borroed from Scheme and Clojure.</li>
-</ol>
-</section>
-<section id="why-ale" class="level3">
-<h3 class="anchored" data-anchor-id="why-ale">Why Ale</h3>
+<section id="ch-01-go-to-ale" class="level1">
+<h1>Ch-01 : Go to Ale</h1>
 <ul>
-<li>Use with Go
+<li>Go programming language overview.</li>
+<li>Programming language paradigm
 <ul>
-<li>Simple and minimally designed compiled language.</li>
+<li>Functional programming over imperative programming</li>
+<li>Complexities of OOP</li>
+<li>Go compared to other programming lanmguage</li>
 </ul></li>
-<li>Overcome limitation of Go programming languages
-<ul>
-<li>Go is compiled language and provides no REPL for interactive development. <!-- ale REPL is not matured--></li>
-<li>Go functions are very rigid ( no defalt parameters, oveloading of functions - useful for scientific computing).</li>
-<li>Use functional style program over Go’s imperative style</li>
-</ul></li>
+<li>Go’s limitation</li>
+<li>Ale in Go</li>
+<li>Potential Usecases</li>
 </ul>
-<section id="production-ready" class="level4">
-<h4 class="anchored" data-anchor-id="production-ready">Production ready ?</h4>
-<p>According to the docs 1. Runtime is partially completed. 2. Compiler performs very little optimization 3. VM could be faster 4. Code generation could be more efficient But deevelopment is very active as per github commits (https://github.com/kode4food/ale)</p>
-<p>Still a work in progress. Use at your own risk. : need to develop few libraries to demonstrate the power.</p>
 </section>
+<section id="ch-02-lisp-clojure-introduction" class="level1">
+<h1>Ch-02 : Lisp (clojure) introduction</h1>
+<ul>
+<li>Prefix notation</li>
+<li>Homoiconicity</li>
+<li>Immutability and functional programming</li>
+<li>Expressive power</li>
+</ul>
 </section>
-<section id="language" class="level2">
-<h2 class="anchored" data-anchor-id="language">language</h2>
-<section id="getting-started" class="level3">
-<h3 class="anchored" data-anchor-id="getting-started">Getting started</h3>
-<section id="prerequisite" class="level4">
-<h4 class="anchored" data-anchor-id="prerequisite">Prerequisite</h4>
+<section id="ch-03-syntax-overview-quick-tour" class="level1">
+<h1>Ch-03 : Syntax overview ( quick tour )</h1>
+<pre><code>+ Comments (with ;;)</code></pre>
+</section>
+<section id="ch-04-expression-type-and-value" class="level1">
+<h1>Ch-04 : Expression, Type and Value</h1>
+<section id="expressions-and-operations" class="level2">
+<h2 class="anchored" data-anchor-id="expressions-and-operations">Expressions and operations</h2>
+<section id="prefix-notation-and-parentheses" class="level3">
+<h3 class="anchored" data-anchor-id="prefix-notation-and-parentheses">prefix notation and parentheses</h3>
 <ol type="1">
-<li>Go programming language</li>
-<li>Lisp ( especially Clojure )</li>
+<li>Use single operator with multiple arguments (variable number of arguments) (associative operation?)</li>
+<li>Need not worry about operator precedence rule</li>
+<li>always left to right evaluation</li>
 </ol>
 </section>
-<section id="installation" class="level4">
-<h4 class="anchored" data-anchor-id="installation">Installation</h4>
+<section id="arithmatics" class="level3">
+<h3 class="anchored" data-anchor-id="arithmatics">Arithmatics</h3>
 <ol type="1">
-<li><p>Install Go first if it is not installed already.</p></li>
-<li><p>Set GOPATH environment variable</p></li>
-<li><p>Add <code>GOPATH/bin</code> in PATH to access <code>ale</code> command</p></li>
-<li><p>Install Ale using <code>go install</code> command :</p>
-<pre class="{bash}"><code>go install github.com/kode4food/ale/cmd/ale@latest
-</code></pre></li>
-<li><p>Check typing <code>ale</code> command</p></li>
+<li>addition : (+ 1 2 3 4 5)</li>
+<li>subtraction : (- 9 1 3)</li>
+<li>multiplication : (* 1 2 3)</li>
+<li>division : (/ 2 4)</li>
 </ol>
 </section>
-<section id="use-repl-with-ale-command" class="level4">
-<h4 class="anchored" data-anchor-id="use-repl-with-ale-command">Use REPL with <strong>ale</strong> command <!-- It's CRUDE REPL w.r.t other Lisp or functional language ?? --></h4>
-<pre><code>$ale
-Ale (A Lisp Environment) 0.1
-
-  (help) Display this help message
-  (doc form) Display documentation. Example: (doc go)
-  (use ns) Change current namespace. Example: (use foo)
-  (cls) Clear the screen
-  (quit) Quit the REPL
-
-  The prompt below identifies the current namespace, followed by the number of expressions that will have been
-  evaluated in the current REPL session. A single expression can span multiple lines.
-
-user [1]&gt;
-</code></pre>
-</section>
-<section id="run-a-source-file" class="level4">
-<h4 class="anchored" data-anchor-id="run-a-source-file">Run a source file</h4>
+<section id="logical-operation" class="level3">
+<h3 class="anchored" data-anchor-id="logical-operation">Logical operation</h3>
 <ol type="1">
-<li>Create a file ‘somefile.ale’<br>
-</li>
-<li>Use ale filename.ale to run the programm</li>
+<li>The <code>and</code> operations
+<ul>
+<li>Example</li>
+</ul>
+<pre><code>    (and #t #f)</code></pre>
+<ul>
+<li>Logical AND operations</li>
+<li>Short-circuited - means returns first False ### values and name ### Eqality and comparisons ### Atomic types</li>
+<li>Boolean</li>
+<li>Numerics ( / of integers returns rational number)</li>
+<li>Text</li>
+<li>Symbol</li>
+<li>compatibility with go types</li>
+</ul></li>
 </ol>
-<pre><code>ale somefile.ale
-or 
-cat somefile.ale | ale</code></pre>
 </section>
-<section id="embed-with-go-programm" class="level4">
-<h4 class="anchored" data-anchor-id="embed-with-go-programm">Embed with Go programm</h4>
-<p>Most interesting usecase to leaverage Go. <!--detail later --></p>
+</section>
+</section>
+<section id="ch-05-functions" class="level1">
+<h1>Ch-05: Functions</h1>
+<pre><code>+ Anonymous functions
++ Named functions
++ Function equality
++ Multi-arguments functions
++ Partial Application
++ Clojures
++ Function compositions
++ Higher order functions</code></pre>
+</section>
+<section id="ch-06-control-flow" class="level1">
+<h1>Ch-06: Control flow</h1>
+<pre><code>+ if
++ when
++ cond
++ recursion</code></pre>
+</section>
+<section id="ch-07-records---mapped-sequence.---what-is-equivalent-to-structure-in-go" class="level1">
+<h1>Ch-07: Records -? mapped sequence. - what is equivalent to structure in Go</h1>
+</section>
+<section id="ch-08-data-collection---list-array-seq-mapped-seq-map" class="level1">
+<h1>Ch-08: Data collection - list, array, seq, mapped seq, map?</h1>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"></h2>
+</section>
+</section>
+<section id="ch-09-functional-style-and-itteration" class="level1">
+<h1>Ch-09: Functional style and itteration</h1>
+<section id="use-apply" class="level3">
+<h3 class="anchored" data-anchor-id="use-apply">Use <code>apply</code></h3>
+<pre><code>+ Example
+```
+    (apply + '(1 2 3 4)) ;; returns 10
+    (apply + 3 '(1 2 3 4)) ;; returns 13   
+```
++ No a map operation 
++ kind of reduce?</code></pre>
+<!-- Study more on apply behaviour specially parameters before the sequences -->
+</section>
+</section>
+<section id="ch-10-lazy-sequence" class="level1">
+<h1>Ch-10: Lazy sequence</h1>
+</section>
+<section id="ch-11-sequentialsrynchoneous-execution-and-side-effects" class="level1">
+<h1>Ch-11: Sequential(srynchoneous) execution and side effects</h1>
+</section>
+<section id="ch-12-oncurrency" class="level1">
+<h1>Ch-12: oncurrency</h1>
+</section>
+<section id="ch-14-macros-and-homoiconic-processing" class="level1">
+<h1>Ch-14: Macros and homoiconic processing</h1>
+</section>
+<section id="ch-15-working-with-go" class="level1">
+<h1>Ch-15: Working with Go</h1>
+</section>
+<section id="ch-16-utility" class="level1">
+<h1>Ch-16: Utility</h1>
 
 
-</section>
-</section>
 </section>
 
 </main> <!-- /main -->

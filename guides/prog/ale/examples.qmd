@@ -1,0 +1,92 @@
+---
+title: Ale Programming 
+---
+
+# Ch-01 : Go to Ale
++ Go programming language overview.
++ Programming language paradigm
+    - Functional programming over imperative programming
+    - Complexities of OOP
+    - Go compared to other programming lanmguage
++ Go's limitation
++ Ale in Go
++ Potential Usecases
+
+# Ch-02 : Lisp (clojure) introduction
++ Prefix notation
++ Homoiconicity
++ Immutability and functional programming
++ Expressive power
+
+# Ch-03 : Syntax overview ( quick tour )
+    + Comments (with ;;)
+
+# Ch-04 : Expression, Type and Value
+
+## Expressions and operations
+
+###  prefix notation and parentheses
+1. Use single operator with multiple arguments (variable number of arguments) (associative operation?)
+2. Need not worry about operator precedence rule
+3. always left to right evaluation 
+
+### Arithmatics
+1. addition : (+ 1 2 3 4 5)
+2. subtraction : (- 9 1 3)
+3. multiplication : (* 1 2 3)
+4. division : (/ 2 4) 
+
+### Logical operation
+1. The `and` operations
+    + Example
+    ```
+        (and #t #f)
+    ```
+    + Logical AND operations
+    + Short-circuited - means returns first False 
+### values and name
+### Eqality and comparisons
+### Atomic types
+    + Boolean
+    + Numerics ( / of integers returns rational number)
+    + Text
+    + Symbol
+    + compatibility with go types
+
+# Ch-05: Functions
+    + Anonymous functions
+    + Named functions
+    + Function equality
+    + Multi-arguments functions
+    + Partial Application
+    + Clojures
+    + Function compositions
+    + Higher order functions
+
+# Ch-06: Control flow
+    + if
+    + when
+    + cond
+    + recursion
+
+# Ch-07: Records -? mapped sequence. - what is equivalent to structure in Go
+# Ch-08: Data collection - list, array, seq, mapped seq, map? 
+## 
+# Ch-09: Functional style and itteration
+### Use `apply`
+    + Example
+    ```
+        (apply + '(1 2 3 4)) ;; returns 10
+        (apply + 3 '(1 2 3 4)) ;; returns 13   
+    ```
+    + No a map operation 
+    + kind of reduce?
+<!-- Study more on apply behaviour specially parameters before the sequences -->
+
+# Ch-10: Lazy sequence
+# Ch-11: Sequential(srynchoneous) execution and side effects
+# Ch-12: oncurrency
+# Ch-14: Macros and homoiconic processing
+# Ch-15: Working with Go
+# Ch-16: Utility
+
