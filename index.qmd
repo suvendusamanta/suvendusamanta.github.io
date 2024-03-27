@@ -1,6 +1,0 @@
----
-title: "Welcome to Suvendu's website"
----
-
-This website is under development. It is created by [Quarto](https://quarto.org/) at hosted from [Github](https://pages.github.com/). 
-

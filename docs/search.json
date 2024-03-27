@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "guide.html",
-    "href": "guide.html",
-    "title": "The site is under development. Coming soon ….",
-    "section": "",
-    "text": "Programming\nNumerical Algorithms\nStatistical Machine Learning\n\nLinear Models\nProbabilistic Graphical Models\nDeep Learning\nReinforcement Learning\n\nIntelligence\n\nNatural Language Processing\nComputer Vision\n\nEconometrics\nComputational Applications\n\n\n\n\n\nMusic\nDrawing and Paininting"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Welcome to Suvendu’s website",
@@ -14,11 +7,11 @@
     "text": "This website is under development. It is created by Quarto at hosted from Github."
   },
   {
-    "objectID": "posts/sample-blog.html",
-    "href": "posts/sample-blog.html",
-    "title": "Sample Blog",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Suvendu Samanta",
     "section": "",
-    "text": "Here is the content of sample blog"
+    "text": "I am a dreamer."
   },
   {
     "objectID": "blog.html",
@@ -28,10 +21,24 @@
     "text": "sample\n\n\ntesting\n\n\nanalysis\n\n\n\n\nPost description\n\n\n\n\n\n\nDec 26, 2023\n\n\nSuvendu Samanta\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Suvendu Samanta",
+    "objectID": "guides/prog/ale/examples.html",
+    "href": "guides/prog/ale/examples.html",
+    "title": "Ale Programming",
     "section": "",
-    "text": "I am a dreamer."
+    "text": "Go programming language overview.\nProgramming language paradigm\n\nFunctional programming over imperative programming\nComplexities of OOP\nGo compared to other programming lanmguage\n\nGo’s limitation\nAle in Go\nPotential Usecases"
+  },
+  {
+    "objectID": "guides/prog/ale/examples.html#expressions-and-operations",
+    "href": "guides/prog/ale/examples.html#expressions-and-operations",
+    "title": "Ale Programming",
+    "section": "Expressions and operations",
+    "text": "Expressions and operations\n\nprefix notation and parentheses\n\nUse single operator with multiple arguments (variable number of arguments) (associative operation?)\nNeed not worry about operator precedence rule\nalways left to right evaluation\n\n\n\nArithmatics\n\naddition : (+ 1 2 3 4 5)\nsubtraction : (- 9 1 3)\nmultiplication : (* 1 2 3)\ndivision : (/ 2 4)\n\n\n\nLogical operation\n\nThe and operations\n\nExample\n\n    (and #t #f)\n\nLogical AND operations\nShort-circuited - means returns first False ### values and name ### Eqality and comparisons ### Atomic types\nBoolean\nNumerics ( / of integers returns rational number)\nText\nSymbol\ncompatibility with go types"
+  },
+  {
+    "objectID": "posts/sample-blog.html",
+    "href": "posts/sample-blog.html",
+    "title": "Sample Blog",
+    "section": "",
+    "text": "Here is the content of sample blog"
   }
 ]
