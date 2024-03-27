@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Welcome to Suvendu’s website",
     "section": "",
-    "text": "This website is under development. It is created by Quarto at hosted from Github."
+    "text": "Website is under development."
   },
   {
     "objectID": "about.html",
@@ -12,13 +12,6 @@
     "title": "Suvendu Samanta",
     "section": "",
     "text": "I am a dreamer."
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Opinions",
-    "section": "",
-    "text": "sample\n\n\ntesting\n\n\nanalysis\n\n\n\n\nPost description\n\n\n\n\n\n\nDec 26, 2023\n\n\nSuvendu Samanta\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "guides/prog/ale/examples.html",
@@ -40,5 +33,19 @@
     "title": "Sample Blog",
     "section": "",
     "text": "Here is the content of sample blog"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Opinions",
+    "section": "",
+    "text": "sample\n\n\ntesting\n\n\nanalysis\n\n\n\n\nPost description\n\n\n\n\n\n\nDec 26, 2023\n\n\nSuvendu Samanta\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "roadmap.html",
+    "href": "roadmap.html",
+    "title": "Planning and roadmap",
+    "section": "",
+    "text": "Objectives\n\nPersonal Branding\nChannel for Elegansity\n\n\n\nMenus\n\nHome : describing resource avaibility\nGuide :\nFun :\nAbout : CV"
   }
 ]
