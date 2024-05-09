@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome to Suvendu’s website",
+    "title": "Welcome to Suvendu’s Blog",
     "section": "",
     "text": "Website is under development."
   },
@@ -39,7 +39,7 @@
     "href": "posts.html",
     "title": "Opinions",
     "section": "",
-    "text": "sample\n\n\ntesting\n\n\nanalysis\n\n\n\n\nPost description\n\n\n\n\n\n\nDec 26, 2023\n\n\nSuvendu Samanta\n\n\n\n\n\n\nNo matching items"
+    "text": "Sample Blog\n\n\n\n\n\n\nsample\n\n\ntesting\n\n\nanalysis\n\n\n\nPost description\n\n\n\n\n\nDec 26, 2023\n\n\nSuvendu Samanta\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "roadmap.html",
@@ -47,5 +47,26 @@
     "title": "Planning and roadmap",
     "section": "",
     "text": "Objectives\n\nPersonal Branding\nChannel for Elegansity\n\n\n\nMenus\n\nHome : describing resource avaibility\nGuide :\nFun :\nAbout : CV"
+  },
+  {
+    "objectID": "about.html#bio",
+    "href": "about.html#bio",
+    "title": "Suvendu Samanta",
+    "section": "Bio",
+    "text": "Bio\nWorking as a ‘Data Scientist’ at Algonomy ( Data Scientist is not a scientist ) B. Tech in Mechanical Enginnering and M. Tech in Quality, Reliabilty and Operation Research"
+  },
+  {
+    "objectID": "tweets/simple.tweets.html",
+    "href": "tweets/simple.tweets.html",
+    "title": "Sample Tweets",
+    "section": "",
+    "text": "Here is the content of sample blog"
+  },
+  {
+    "objectID": "tweets.html",
+    "href": "tweets.html",
+    "title": "Tweets - personal, social, political and other non professional updates",
+    "section": "",
+    "text": "Sample Tweets\n\n\n\n\n\nPost description\n\n\n\n\n\nApr 29, 2024\n\n\nSuvendu Samanta\n\n\n\n\n\n\nNo matching items"
   }
 ]

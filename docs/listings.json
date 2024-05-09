@@ -4,5 +4,11 @@
     "items": [
       "/posts/sample-blog.html"
     ]
+  },
+  {
+    "listing": "/tweets.html",
+    "items": [
+      "/tweets/simple.tweets.html"
+    ]
   }
 ]
